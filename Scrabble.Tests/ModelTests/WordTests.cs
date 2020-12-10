@@ -15,6 +15,14 @@ namespace Scrabble.Tests
       Assert.AreEqual(startingScore, newWord.Score);
     }
 
+    [TestMethod]
+    public void ScoreWord_GivesWordAScore_Score()
+    {
+      int endingScore = 10;
+      Word newWord = new Word("axel");
+      Assert.AreEqual(endingScore, newWord.Score);
+    }
+
   }
 }
 

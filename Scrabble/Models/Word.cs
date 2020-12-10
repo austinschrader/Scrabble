@@ -11,6 +11,9 @@ namespace Scrabble.Models
       UserInput = userInput;
       Score = 0;
     }
+
+
+
     
   }
 }
