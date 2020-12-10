@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Scrabble;
+using Scrabble.Models;
 
 namespace Scrabble.Tests
 {
