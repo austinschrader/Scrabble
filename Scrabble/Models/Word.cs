@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Scrabble.Models
 {
-  public class Word
+  public class Word : Player
   {
     public string UserInput { get; }
     public int Score { get; set; }

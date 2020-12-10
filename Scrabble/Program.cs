@@ -17,6 +17,7 @@ namespace Scrabble
       string playAgain = Console.ReadLine();
       if ( playAgain == "y" || playAgain == "Y")
       {
+        Console.WriteLine(newWord.InPlay());
         Main();
       }
       else
