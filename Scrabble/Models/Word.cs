@@ -1,4 +1,4 @@
-
+using System;
 
 namespace Scrabble.Models
 {
@@ -12,8 +12,11 @@ namespace Scrabble.Models
       Score = 0;
     }
 
-
-
-    
+    public void ScoreWord()
+    {
+    for(int i = 0; i < UserInput.Length; i++)
+      Console.WriteLine(UserInput[i]);
+    } 
   }
+
 }
