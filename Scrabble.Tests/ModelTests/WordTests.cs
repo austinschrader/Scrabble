@@ -9,11 +9,12 @@ namespace Scrabble.Tests
     [TestMethod]
     public void WordConstructor_CreatesInstanceOfWord_Word()
     {
-      
       Word newWord = new Word("axel");
+      int startingScore = 0;
       Assert.AreEqual(typeof(Word), newWord.GetType());
-
+      Assert.AreEqual(startingScore, newWord.Score);
     }
+
   }
 }
 
