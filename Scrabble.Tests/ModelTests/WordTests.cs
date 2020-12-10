@@ -18,8 +18,12 @@ namespace Scrabble.Tests
     [TestMethod]
     public void ScoreWord_GivesWordAScore_Score()
     {
-      int endingScore = 10;
+      //Arrange
+      int endingScore = 11;
       Word newWord = new Word("axel");
+      //Act
+      newWord.ScoreWord();
+      //Assert
       Assert.AreEqual(endingScore, newWord.Score);
     }
 
